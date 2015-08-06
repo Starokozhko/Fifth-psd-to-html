@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(../img/fon.png);
+	background-repeat: repeat;
+}
+.header {
+	width: 100%;
+	height: 225px;
+	background-image: url(../img/fon_2.png);
+	background-repeat: repeat-x;
+	margin: 0;
+}
+.fon_gray {
+	width: 100%;
+	height: 6px;
+	background-image: url(../img/fon_2_gray.png);
+	background-repeat: repeat-x;
+	margin: 0;
+}
+.fon_light {
+	width: 1200px;
+	height: inherit;
+	background-image: url(../img/fon_3.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+}
+.left_arrow {
+	background-image: url(../img/right_arrow.png);
+	width: 58px;
+	height: 117px;
+	position: absolute;
+	left: 0;
+	top: 54px;
+}
+.right_arrow {
+	background-image: url(../img/left_arrow.png);
+	width: 69px;
+	height: 80px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.wrapper {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.account {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 316px;
+}
+.account a {
+	font-family: 'Kozuka Gothic Pr6N' normal;
+	 font-style: italic; 
+	font-weight: 200;
+	font-size: .5em;
+	color: #fff;
+}
+.divs {
+	width: 0;
+	height: 0;
+	border: 12px solid transparent; 
+	float: left;
+}
+.first {
+	width: 118px;
+	height: inherit;
+	float: left;
+}
+.second {
+	width: 222px;
+	height: inherit;
+	margin-left: -30px;
+	float: right;
+}
+.arrow-top {
+	border-color: #4b4b4d #4b4b4d transparent transparent;
+}
+.arrow-left {
+	border-color: #4b4b4d transparent transparent #4b4b4d;
+}
+.arrow-left-gray {
+	border-color: #707070 transparent transparent #707070;
+}
+.arrow-right {
+	border-color: transparent #707070 #707070 transparent;
+
+}
+#fon_account1 {
+	background-color: #4b4b4d;
+	padding: 0 15px 5px;
+	text-align: center;
+	float: left;
+}
+#fon_account2 {
+	background-color: #707070;
+	text-align: center;
+	padding: 0 15px 5px;
+	float: left;
+}

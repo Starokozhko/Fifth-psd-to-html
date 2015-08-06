@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Kozuka Gothic Pr6N';
+	src: url('./Kozuka Gothic Pr6N.eot');
+	src: local('Kozuka Gothic Pr6N'), url('./Kozuka Gothic Pr6N.woff') format('woff'), url('./Kozuka Gothic Pr6N.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_31244">Text with this font applied</p> */
+.fontsforweb_fontid_31244 {
+	font-family: 'Kozuka Gothic Pr6N' !important;
+
+}
+@font-face {
+	font-family: 'KozGoPr6N-Bold';
+	src: url('./KozGoPr6N-Bold.eot');
+	src: local('KozGoPr6N-Bold'), url('./KozGoPr6N-Bold.woff') format('woff'), url('./KozGoPr6N-Bold.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_31244">Text with this font applied</p> */
+.fontsforweb_fontid_31244 {
+	font-family: 'KozGoPr6N-Bold' !important;
+}
