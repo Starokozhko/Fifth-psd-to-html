@@ -17,3 +17,29 @@
 .fontsforweb_fontid_31244 {
 	font-family: 'KozGoPr6N-Bold' !important;
 }
+@font-face {
+	font-family: 'CuprumFFU';
+	src: url('./CuprumFFU.eot');
+	src: local('CuprumFFU'), url('./CuprumFFU.woff') format('woff'), url('./CuprumFFU.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_31244">Text with this font applied</p> */
+.fontsforweb_fontid_31244 {
+	font-family: 'CuprumFFU' !important;
+}
+@font-face {
+	font-family: 'Molot';
+	src: url('./Molot.eot');
+	src: local('Molot'), url('./Molot.woff') format('woff'), url('./Molot.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_31244">Text with this font applied</p> */
+.fontsforweb_fontid_31244 {
+	font-family: 'Molot' !important;
+}@font-face {
+	font-family: 'Tahoma';
+	src: url('./Tahoma.eot');
+	src: local('Tahoma'), url('./Tahoma.woff') format('woff'), url('./Tahoma.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_31244">Text with this font applied</p> */
+.fontsforweb_fontid_31244 {
+	font-family: 'Tahoma' !important;
+}
