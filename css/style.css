@@ -118,7 +118,7 @@ body {
 	font-size: .8em;
 	margin-top: 5px;
 }
-input {
+.search input {
 	background-image: url(../img/search.png);
 	background-repeat: no-repeat;
 	background-position: 240px 3px;
@@ -515,9 +515,7 @@ hr {
 	background-repeat: no-repeat;
 	padding-top: 10px;
 }
-input {
 
-}
 .slide1,
 .slide2,
 .slide3,
@@ -612,19 +610,7 @@ input {
 	margin-top: 20px;
 	margin-left: 100px;
 }
-/*.radio_block {
-	width: 110px;
-	height: 50px;
-	position: absolute;
-	top: 333px;
-	left: 570px;
-}
-.radio_block input {
-	float: left;
-	width: 15px;
-	height: 15px;
-	margin-right: 7px;
-}*/
+
 .link_to {
 	width: inherit;
 	height: 30px;
@@ -814,9 +800,7 @@ input {
 }
 
 
-.materials
-{
-	border: 1px solid red;
+.materials {
 	position: absolute;
 	top: 620px;
 }
@@ -975,27 +959,42 @@ input {
 	background-color: #fff;
 	z-index: .8;
 }
-.fon_new_game {
+.top_titel_materials_y {
 	background-image: url(../img/fon_new_games.png);
-	width: 356px;
 	border: 1px solid #f4d10e;
 	position: absolute;
-	top: -4px;
-	left: -4px;
 	background-repeat: repeat-x;
 	height: 42px;
 	z-index: .8;
 }
-.fon_new_game_gray {
-	width: 180px;
+.top_titel_materials_g {
 	height: 41px;
-	-webkit-clip-path: polygon(25px 41px, 180px 41px, 180px 0px, 0px 0px );
 	background-image: url(../img/fon_new_games_gray.png);
 	background-repeat: repeat-x;
 	position: absolute;
+	z-index: .9;
+}
+.fon_new_game {
+	width: 356px;
+	top: -4px;
+	left: -4px;
+}
+.fon_games_review {
+	width: 360px;
+	top: -4px;
+	left: -4px;
+}
+.fon_new_game_gray {
+	width: 180px;
+	-webkit-clip-path: polygon(25px 41px, 180px 41px, 180px 0px, 0px 0px );
 	top: -1px;
 	right: -1px;
-	z-index: .9;
+}
+.fon_games_review_gray {
+	width: 185px;
+	-webkit-clip-path: polygon(25px 41px, 185px 41px, 185px 0px, 0px 0px );
+	top: -1px;
+	right: -1px;
 }
 .star {
 	width: 30px;
@@ -1011,9 +1010,10 @@ input {
 	background-image: url(../img/new_window_icon.png);
 	background-repeat: no-repeat;
 	float: left;
-	margin: 10px 0 5px 50px;
+	margin: 10px 0 5px 70px;
 }
-.fon_new_game a {
+.fon_new_game a,
+.fon_games_review a {
 	color: #000;
 	font-family: 'Arial' normal;
 	font-weight: 200;
@@ -1023,10 +1023,11 @@ input {
 	text-decoration: none;
 	border-bottom: 1px dotted #000;
 }
-.fon_new_game_gray a {
+.fon_new_game_gray a,
+.fon_games_review_gray a {
 	color: #fff;
 	float: right;
-	margin-right: 40px;
+	margin:0 8%;
 	text-decoration: underline;
 	border-bottom: none;
 }
@@ -1095,10 +1096,119 @@ input {
 	line-height: 11px;
 	color: #ff6800;
 }
+
 .games_review {
 	width: 355px;
 	height: 802px;
 	border: 4px solid #555;
 	float: right;
 	background-color: #fff;
+	position: relative;
+	z-index: .8;
+}
+.game_key {
+	width: 38px;
+	height: 32px;
+	background-image: url(../img/icon_titel_games.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 10px 0 5px 10px;
+}
+.game_video {
+	width: 30px;
+	height: 32px;
+	background-image: url(../img/icon_titel_games.png);
+	background-position: -36px 0;
+	background-repeat: no-repeat;
+	float: left;
+	margin: 5px 0 5px 25px;
+}
+.review_block {
+	width: 345px;
+	height: auto;
+	padding: 5px 1%;
+}
+.review_block p span {
+	color: #ff6800;
+	font-family: 'CuprumFFU' normal;
+	font-size: 1.3em;
+	float: left;
+	margin: 0 10px;
+}
+.review_block b {
+	font-family: 'Arial' normal;
+	font-weight: 200;
+	font-size: .7em;
+	color: #ccc;
+	line-height: 25px;
+}
+.titel_reviw {
+	width: inherit;
+	min-height: 25px;
+	height: auto;
+	margin-bottom: 5px;
+}
+.view_game {
+	width: 344px;
+	height: 80px;
+	background-image: url(../img/gta_vc.png);
+	margin-top: 10px;
+}
+.view_game2 {
+	width: 344px;
+	height: 80px;
+	background-image: url(../img/gta_vc.png);
+	background-position: 0 80px;
+	margin-top: 10px;
+}
+.review_block p {
+	margin: 5px;
+	font-family: 'Arial' normal;
+	font-weight: 200;
+	font-size: .8em;
+	color: #999;
+}
+.subscribe_to {
+	width: inherit;
+	position: absolute;
+	bottom: 0;
+}
+.subscribe_to p{
+	color: #333;
+	font-family: 'CuprumFFU' normal;
+	font-size: 1em;
+	margin-left: 10px;
+}
+.subscribe_to input {
+	width: 250px;
+	height:35px;
+	float: left;
+	border: 1px solid #ccc;
+	background-color: #f4f4f4;
+	box-shadow: inset 2px 2px 10px 1px rgba(0, 0, 0, 0.3);
+	padding-left: 10px;
+}
+.wrap_input {
+	width: 315px;
+	height: 35px;
+	margin:0 10px 30px;
+}
+.botton_ok {
+	width: 40px;
+	height: 27px;
+	overflow: hidden;
+	padding-top: 10px;
+	float: right;
+	background-image: url(../img/fon_new_games.png);
+	background-repeat: repeat-x;
+	background-position: 2px;
+	text-align: center;
+}
+
+.recently {
+	width: 1000px;
+	height: 500px;
+	border: 1px solid red;
+	position: absolute;
+	top: 1450px;
 }
