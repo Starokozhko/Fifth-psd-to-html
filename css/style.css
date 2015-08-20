@@ -1212,3 +1212,111 @@ hr {
 	position: absolute;
 	top: 1450px;
 }
+.archive {
+	width: 252px;
+	border: 1px solid red;
+	float: left;
+}
+.recently_materials {
+	width: 729px;
+	margin-left: 15px;
+	float: right;
+	/*border: 1px solid blue;*/
+}
+
+.advertising {
+	width: 727px;
+	height: 100px;
+	border: 1px solid #999;
+	background-color: #fff;
+	text-align: center;
+	position: relative;
+}
+.advertising p{
+	color: #b4b4b4;
+	font-family: 'CuprumFFU' normal;
+	font-size: 1.2em;
+	margin-top: 40px;
+}
+.advertising_to {
+	height: 25px;
+	width: 165px;
+	float: right;
+	background-color: #fff;
+	text-align: right;
+	-webkit-clip-path: polygon(25px 25px, 165px 25px, 165px 0px, 0px 0px );
+	/*border: 1px solid #555;*/
+}
+.advertising_to a {
+	color: #ff6800;
+	font-family: 'Arial' normal;
+	font-size: .8em;
+	margin: 3px 0 0 15px;
+	text-align: center;
+	display: block;
+	width: inherit;
+	height: inherit;
+}
+.titel_recently {
+	width: 200px;
+	height: 25px;
+	background-color: #fff;
+	float: none;
+	margin-top: 25px;
+	-webkit-clip-path: polygon(0px 25px, 200px 25px, 175px 0px, 0px 0px );
+}
+
+.icon_recently {
+	width: 17px;
+	height: 17px;
+	background-image: url(../img/grip.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 4px 5px 4px 10px;
+}
+.titel_recently p {
+	color: #ff6800;
+	font-family: 'Arial' normal;
+	font-size: .9em;
+	line-height: 26px;
+}
+.recently_online {
+	width: 730px;
+	height: 1100px;
+	background-color: #fff;
+}
+.recently_block {
+	width: 195px;
+	height: 290px;
+	padding: 24px;
+	float: left;
+}
+.photo_recently {
+	width: 191px;
+	height: 263px;
+	background-image: url(../img/photo_recently.png);
+	background-repeat: no-repeat;
+	margin: 5px 0;
+}
+.recently_block a{
+	color: #222;
+	font-family: 'Arial' normal;
+	font-size: .9em;
+}
+.star_recently p {
+	color: #888;
+	font-family: 'Arial' normal;
+	font-size: .7em;
+}
+.star_recently a {
+	font-family: 'Arial' normal;
+	font-size: 1.3em;
+}
+.star_rec {
+	width: 15px;
+	height: 15px;
+	background-image: url(../img/star_recently.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 5px 3px 0 0;
+}
