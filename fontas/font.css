@@ -34,7 +34,8 @@
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_31244">Text with this font applied</p> */
 .fontsforweb_fontid_31244 {
 	font-family: 'Molot' !important;
-}@font-face {
+}
+@font-face {
 	font-family: 'Tahoma';
 	src: url('./Tahoma.eot');
 	src: local('Tahoma'), url('./Tahoma.woff') format('woff'), url('./Tahoma.ttf') format('truetype');
@@ -42,4 +43,13 @@
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_31244">Text with this font applied</p> */
 .fontsforweb_fontid_31244 {
 	font-family: 'Tahoma' !important;
+}
+@font-face {
+	font-family: 'HelveticaNeue-Bold';
+	src: url('./HelveticaNeue-Bold.eot');
+	src: local('HelveticaNeue-Bold'), url('./HelveticaNeue-Bold.woff') format('woff'), url('./HelveticaNeue-Bold.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_31244">Text with this font applied</p> */
+.fontsforweb_fontid_31244 {
+	font-family: 'HelveticaNeue-Bold' !important;
 }

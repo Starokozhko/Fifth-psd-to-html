@@ -1075,7 +1075,7 @@ hr {
 }
 .date_icon p {
 	margin: 0 20px;
-	font-family: 'Arial' normal;
+	font-family: 'Tahoma' normal;
 	font-weight: 200;
 	font-size: .7em;
 	line-height: 15px;
@@ -1090,7 +1090,7 @@ hr {
 }
 .comment_icon p {
 	margin: 0 20px;
-	font-family: 'Arial' normal;
+	font-family: 'Tahoma' normal;
 	font-weight: 200;
 	font-size: .7em;
 	line-height: 11px;
@@ -1136,7 +1136,7 @@ hr {
 	margin: 0 10px;
 }
 .review_block b {
-	font-family: 'Arial' normal;
+	font-family: 'Tahoma' normal;
 	font-weight: 200;
 	font-size: .7em;
 	color: #ccc;
@@ -1163,7 +1163,7 @@ hr {
 }
 .review_block p {
 	margin: 5px;
-	font-family: 'Arial' normal;
+	font-family: 'Tahoma' normal;
 	font-weight: 200;
 	font-size: .8em;
 	color: #999;
@@ -1208,20 +1208,18 @@ hr {
 .recently {
 	width: 1000px;
 	height: 500px;
-	border: 1px solid red;
 	position: absolute;
 	top: 1450px;
 }
 .archive {
 	width: 252px;
-	border: 1px solid red;
 	float: left;
 }
 .recently_materials {
 	width: 729px;
 	margin-left: 15px;
 	float: right;
-	/*border: 1px solid blue;*/
+	position: relative;
 }
 
 .advertising {
@@ -1249,7 +1247,7 @@ hr {
 }
 .advertising_to a {
 	color: #ff6800;
-	font-family: 'Arial' normal;
+	font-family: 'Tahoma' normal;
 	font-size: .8em;
 	margin: 3px 0 0 15px;
 	text-align: center;
@@ -1276,7 +1274,7 @@ hr {
 }
 .titel_recently p {
 	color: #ff6800;
-	font-family: 'Arial' normal;
+	font-family: 'Tahoma' normal;
 	font-size: .9em;
 	line-height: 26px;
 }
@@ -1300,16 +1298,16 @@ hr {
 }
 .recently_block a{
 	color: #222;
-	font-family: 'Arial' normal;
+	font-family: 'Tahoma' normal;
 	font-size: .9em;
 }
 .star_recently p {
 	color: #888;
-	font-family: 'Arial' normal;
+	font-family: 'Tahoma' normal;
 	font-size: .7em;
 }
 .star_recently a {
-	font-family: 'Arial' normal;
+	font-family: 'Tahoma' normal;
 	font-size: 1.3em;
 }
 .star_rec {
@@ -1319,4 +1317,149 @@ hr {
 	background-repeat: no-repeat;
 	float: left;
 	margin: 5px 3px 0 0;
+}
+.arhives {
+	width: inherit;
+	height: 42px;
+	background-image: url(../img/fon_new_games.png);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+.arhive {
+	position: relative;
+}
+.arhives p {
+	padding-top: 10px;
+	font-family: 'CuprumFFU' normal;
+	font-size: 1.2em;
+}
+.titel_calendar {
+	width: inherit;
+	height: 35px;
+	background-color: #000;
+	text-align: center;
+	padding-top: 15px;
+	margin-top: 5px;
+}
+.arrow_l {
+	width: 10px;
+	height: 13px;
+	background-image: url(../img/arrow_lr.png);
+	background-repeat: no-repeat;
+	margin-left: 30px;
+	float: left;
+}
+.titel_calendar p {
+	color: #fff;
+	float: left;
+	margin: 0 16%;
+}
+.arrow_r {
+	width: 10px;
+	height: 13px;
+	background-image: url(../img/arrow_lr.png);
+	background-position: -10px 0;
+	background-repeat: no-repeat;
+	float: right;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.bg {
+	width: inherit;
+	height: 20px;
+	background-color: #ccc;
+}
+.bg p {
+	float: left;
+	width: 36px;
+	text-align: center;
+	margin: 5px 0;
+	font-family: 'Tahoma' normal;
+	font-size: .7em;
+}
+.date_calendar {
+	width: inherit;
+	height: 155px;
+	background-image: url(../img/fon_arhiv.png);
+	background-repeat: inherit;
+	position: absolute;
+	cursor: pointer;
+}
+.highlighted {
+	background-color: #ccc;
+}
+.next_m {
+	color: #ccc;
+}
+.date {
+	width: 35px;
+	height: 30px;
+	top: -1px;
+	float: left;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.date_calendar p {
+	float: left;
+	width: 34px;
+	text-align: center;
+	margin: 5px 0;
+	font-family: 'Tahoma' normal;
+	font-size: .9em;
+}
+.key_texts {
+	width: inherit;
+	height: 960px;
+	margin-top: 175px;
+	overflow: hidden;
+}
+.text_key_block p{
+	margin: 15px 5px 0 0;
+	font-family: 'Tahoma' normal;
+	font-size: .7em;
+	line-height: 18px;
+}
+.date_calendar .date:hover {
+	background-color: #999;
+}
+.navigation_mat {
+	height: 30px;
+	width: 483px;
+	margin: 25px auto;
+	position: absolute;
+	bottom: -10px;
+	left: 120px
+}
+.navigation_mat ul {
+	width: inherit;
+	height: 30px;
+
+}
+.navigation_mat ul li {
+	display: inline-block;
+	width: auto;
+
+	height: inherit;
+	background-image: url(../img/fon_nav.png);
+	background-repeat: repeat-x;
+}
+.navigation_mat a {
+	text-decoration: none;
+	display: block;
+	width: inherit;
+	height: inherit;
+	font-family: 'Tahoma' normal;
+	font-size: .9em;
+	color: #222;
+		padding: 5px 15px;
+}
+.navigation_mat a:hover {
+	color: #fff;
+}
+.bottom_block {
+	width: inherit;
+	height: 300px;
+	background-image: url(../img/fon_bottom.png);
+	
 }
